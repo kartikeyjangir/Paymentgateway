@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <style>
+    header {
+  text-align: center;
+  background-color: purple;
+  color: white;
+  font-size: 50px;
+  font-weight: 500;
+  width: 100%;
+  height: 80px;
+	top: 0px;
+	position: fixed;
+}
+main{
+  position: fixed;
+  top: 100px;
+  width: 100%;
+}
+.btn{
+  background-color: purple;
+  
+}
+  </style>
+    <title>Paytm-Nodejs</title>
+  </head>
+  <body style="background-color:rgb(43, 39, 39)">
+    <header >PAYTM PAYMENT GATEWAY</header>
+
+    <main>
+    <div class="row my-5">
+      <div class="col-md-4 offset-md-4">
+        <div class="card">
+          <div class="card-body">
+            <form class="" action="/paynow" method="post">
+              <div class="form-group">
+                <label for="">Name: </label>
+                <input class="form-control" type="text" name="name" value="">
+              </div>
+              <div class="form-group">
+                <label for="">Email: </label>
+                <input class="form-control" type="text" name="email" value="">
+              </div>
+              <div class="form-group">
+                <label for="">Phone: </label>
+                <input class="form-control" type="text" name="phone" value="">
+              </div>
+                <div class="form-group">
+                <label for="">Amount: </label>
+                <input class="form-control" type="text" name="amount" value="">
+              </div>
+              <div class="form-group">
+                <button class="btn form-control btn-primary">Pay Now</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    </body>
+</html>
